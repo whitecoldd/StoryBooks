@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "cross-env NODE_ENV=production node app",
-    "build": "node app.js",
+    "build": "npm install && node app.js",
     "dev": "cross-env NODE_ENV=development nodemon app"
   },
   "author": "whitecoldd",
